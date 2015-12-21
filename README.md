@@ -1,2 +1,4 @@
 # ucr-ingress.github.io
-UCR Site
+
+
+Info/Recruitment site for United Chicagoland Resistance.
