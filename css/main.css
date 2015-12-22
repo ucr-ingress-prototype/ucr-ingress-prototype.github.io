@@ -46,6 +46,20 @@ a:hover {
   );
 }
 
+#join_ucr {
+  text-align: right;
+  width: 100%;
+  padding-bottom: 10px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.nav-link {
+  font-family: 'Coda', cursive;
+  color: goldenrod;
+  font-size: 1.5em;
+}
+
 #tagline {
   font-family: 'Coda', cursive;
   text-align: left;
@@ -56,24 +70,23 @@ a:hover {
 #slogan {
   font-family: 'Coda', cursive;
   text-align: left;
-  color: GoldenRod;
+  color: goldenrod;
   font-size: 2.0em;
 }
 
-#join_ucr {
+#brand-name {
+  font-family: 'Coda', cursive;
+  text-align: left;
+  color: #11ecf7;
+  font-size: 2.0em;
+}
+
+.btn-join {
+  background-color: rgba(224,96,16,1);
   color: white;
   text-align: right;
   font-family: 'Coda', cursive; 
   font-size: 2.0em;
-
-  width: 100%;
-  margin: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  vertical-align: middle;
-
-  bottom: 0px;
-  position: absolute;
 }
 
 #call_to_action {
@@ -92,6 +105,10 @@ a:hover {
 #res {
   color: LightSkyBlue;
   font-weight: bold;
+}
+
+#res-welcome {
+  text-align: center;
 }
 
 #enl {
