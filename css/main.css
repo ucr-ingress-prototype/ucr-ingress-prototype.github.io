@@ -98,12 +98,6 @@ a:hover {
   color: #e0ffe0;
 }
 
-#ucr_logo {
-  float: right;
-  text-align: right;
-  margin: 10px;
-}
-
 a.button_small {
   background-color: rgba(224,96,16,0.9);
   color: white;
