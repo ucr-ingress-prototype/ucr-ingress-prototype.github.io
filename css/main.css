@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(0,0,96);
+
+  background-image: url(/img/bean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+p, img {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.gradient_left {
+  background-image: -webkit-gradient(
+    linear, left top, right top, from(rgba(0, 0, 0, 0.75)),
+    to(rgba(0, 0, 0, 0.1))
+  );
+  background-image: -moz-linear-gradient(
+    left center,
+    rgba(0, 0, 0, 0.75) 20%, rgba(0, 0, 0, 0.1) 95%
+  );
+
+  width: 100%;
+  margin: 0px;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+.gradient_right {
+  background-image: -webkit-gradient(
+    linear, left top, right top, from(rgba(0, 0, 0, 0.1)),
+    to(rgba(0, 0, 0, 0.75))
+  );
+  background-image: -moz-linear-gradient(
+    left center,
+    rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.75) 95%
+  );
+}
+
+#tagline {
+  font-family: 'Coda', cursive;
+  text-align: left;
+  color: #11ecf7;
+  font-size: 2.0em;
+}
+
+#slogan {
+  font-family: 'Coda', cursive;
+  text-align: left;
+  color: GoldenRod;
+  font-size: 2.0em;
+}
+
+#join_ucr {
+  color: white;
+  text-align: right;
+  font-family: 'Coda', cursive; 
+  font-size: 2.0em;
+
+  width: 100%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+
+  bottom: 0px;
+  position: absolute;
+}
+
+#call_to_action {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 1.2em;
+
+  margin-top: 2%;
+  margin-left: 6%;
+  max-width: 75%;
+  padding: 10px;
+
+  background-color: rgba(0,0,0,0.6);
+}
+
+#res {
+  color: LightSkyBlue;
+  font-weight: bold;
+}
+
+#enl {
+  color: #e0ffe0;
+}
+
+#ucr_logo {
+  float: right;
+  text-align: right;
+  margin: 10px;
+}
+
+a.button_small {
+  background-color: rgba(224,96,16,0.9);
+  color: white;
+  padding: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+a.button_big {
+  background-color: rgba(224,96,16,1);
+  color: white;
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  #join_ucr {
+    text-align: center;
+    position : fixed;
+    font-size: 0px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+ 
+  #join_ucr a {
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+    padding: 20px;
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 0; 
+    border-radius: 15px;
+  }
+
+  #call_to_action  {
+    margin-bottom: 15%;
+  }
+}
